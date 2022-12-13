@@ -9,6 +9,9 @@ Google Fonts link:
 <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
 
 
+to choose the color i used 
+https://www.w3schools.com/csS/css_colors.asp
+
 
 
 
