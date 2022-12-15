@@ -12,17 +12,49 @@
 <body>
       <!--Credit: The code for this section draws inspiration from YouTube tutorials from various content creators: Multiplication Quiz, Free Code Camp and Code Instinct. Links on README-->
     <!--Simple home screen that challenges the user to take the quiz. Straightforward options of to learn and play.-->
-    <div class="container">
-    <h1>Challenge Your Brain</h1>
-    <h3>Multiplication Quiz</h3>
-     <form id="form">
-     <p id="score">score : 0</p>
-     <h1 id="question">What is 1 Multiply by 1?</h1>
-     <input type="number" id="inp" placeholder="Enter Your Answer" 
-     autofocus autocomplete="off">
-    <button id="btn" type="submit">Submit</button>
-     </form>
-    
+    <div class="quiz-container" id="quiz">
+      <div class="quiz-header">
+          <h2 id="question">Question text</h2>
+          <ul>
+              <li>
+                  <input
+                      type="radio"
+                      id="a"
+                      name="answer"
+                      class="answer"
+                  />
+                  <label id="a_text" for="a">Question</label>
+              </li>
+              <li>
+                  <input
+                      type="radio"
+                      id="b"
+                      name="answer"
+                      class="answer"
+                  />
+                  <label id="b_text" for="b">Question</label>
+              </li>
+              <li>
+                  <input
+                      type="radio"
+                      id="c"
+                      name="answer"
+                      class="answer"
+                  />
+                  <label id="c_text" for="c">Question</label>
+              </li>
+              <li>
+                  <input
+                      type="radio"
+                      id="d"
+                      name="answer"
+                      class="answer"
+                  />
+                  <label id="d_text" for="d">Question</label>
+              </li>
+          </ul>
+      </div>
+      <button id="submit">Submit</button>
   </div>
   <script src="assets/js/script.js"></script>
 </body>
