@@ -31,6 +31,27 @@ const quizData = [
         d: "none of the above",
         correct: "b",
     },
+
+    {
+        question: "Which music, video streaming and podcast service was officially launched in October 2008?",
+        a: "NetFlix",
+        b: "Audible",
+        c: "Spotify",
+        d: "FM Radio",
+        correct: "b",
+    },
+    
+    {
+        question: "This company is the largest Smartphone maker in South Korea?",
+        a: "LG",
+        b: "Samsung",
+        c: "Honor",
+        d: "Huawei",
+        correct: "b",
+    },
+
+
+
 ];
 
 const quiz = document.getElementById("quiz");
